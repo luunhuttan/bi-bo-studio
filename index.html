@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bí Bo Studio - Studio chụp ảnh online, lưu giữ khoảnh khắc hạnh phúc</title>
+    <meta name="description" content="Bí Bo Studio - Studio online lưu giữ những khoảnh khắc giản dị, ấm áp và đầy yêu thương. Đặt lịch chụp ảnh online, tư vấn miễn phí.">
+    <meta name="keywords" content="studio online, chụp ảnh, Bí Bo Studio, lưu giữ khoảnh khắc, chụp ảnh gia đình, chụp ảnh em bé">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <img src="images/logo.png" alt="Bí Bo Studio Logo" class="logo-main">
+            <h1 class="tagline">Studio nho nhỏ <span>–</span> hạnh phúc to to</h1>
+            <div class="cta-buttons">
+                <a href="#gallery" class="btn btn-primary">Xem Album</a>
+                <a href="#contact" class="btn btn-secondary">Liên hệ ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-flex">
+            <div class="about-text">
+                <h2>Về Bí Bo Studio</h2>
+                <p>Bí Bo là nơi lưu giữ những khoảnh khắc giản dị, ấm áp và đầy yêu thương.</p>
+                <p>Chúng tôi tin rằng điều nhỏ bé nhất cũng có thể mang lại hạnh phúc to to.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Album Ảnh</h2>
+            <div class="gallery-grid">
+                <!-- Gallery items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-flex">
+            <div class="contact-form-wrapper">
+                <h2>Liên Hệ</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tên của bạn" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Số điện thoại" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Lời nhắn của bạn" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi ngay</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <img src="images/logo.png" alt="Bí Bo Studio Logo" class="logo-contact">
+                    <p><strong>CALL ME BABY</strong></p>
+                    <p><a href="tel:+84902160034">(+84) 902160034</a></p>
+                    <p><a href="tel:+84934459177">(+84) 934459177</a></p>
+                    <p><a href="mailto:bibo.studio.vn@gmail.com">bibo.studio.vn@gmail.com</a></p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Bí Bo Studio Logo">
+            </div>
+            <div class="footer-info">
+                <p>Địa chỉ: (Cập nhật địa chỉ nếu có)</p>
+                <p>Email: <a href="mailto:bibo.studio.vn@gmail.com">bibo.studio.vn@gmail.com</a></p>
+                <p>Hotline: <a href="tel:+84902160034">0902 160 034</a> | <a href="tel:+84934459177">0934 459 177</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bí Bo Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Facebook Messenger Plugin -->
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html> 
